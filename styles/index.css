@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100vw;
+}
+
+.green_bg {
+    height: 100vh;
+    background-color: #285348;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white solid;
+    border-width: 0 0 0.0625rem 0;
+    margin-left: 5.6rem;
+    margin-right: 6.5rem;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.logos {
+    margin-top: 3rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.shopping_cart,
+.favorite,
+.search {
+    width: 24px;
+    height: 24px;
+}
+
+
+.inbtwn {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6.5rem;
+    justify-content: space-between;
+}
+
+.txt {
+    width: 42rem;
+    color: #FFF;
+    font-size: 3.625rem;
+    display: flex;
+    flex-direction: column;
+    font-family: NanumMyeongjo, 'Source Sans Pro';
+    font-weight: 100;
+    line-height: normal;
+}
+
+.lowertxt {
+    align-self: flex-end;
+}
+
+.shop_now {
+    display: flex;
+    align-self: flex-end;
+    border-radius: 0.3125rem;
+    background: #EBF5F3;
+    color: #000;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0.42425rem 0.43875rem 0.375rem 0.4375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.33125rem;
+}
+
+.arrow {
+    width: 1.4415rem;
+    height: 1.1515rem;
+}
+
+.slider {
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    /* bottom: ; */
+}
+
+.val {
+    color: #231F20;
+    text-align: center;
+    font-family: NanumMyeongjo, 'Source Sans Pro';
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 25rem;
+    margin-bottom: 8rem;
+}
+
+.three_pillars {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 0 10rem;
+}
+
+.sprout,
+.unity,
+.quality {
+    flex: 1 1 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+}
+
+.sprout_img,
+.quality_img,
+.unity_img {
+    width: 8.32006rem;
+    height: 8.32006rem;
+}
+
+.sprout_header,
+.quality_header,
+.unity_header {
+    color: #231F20;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sprout_par,
+.quality_par,
+.unity_par {
+    color: #231F20;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cat {
+    margin-top: 10rem;
+    color: #231F20;
+    text-align: center;
+    font-family: NanumMyeongjo, 'Source Sans Pro';
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.flex-container {
+    margin: 9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1:hover{
+    background-color: #285348CC;
+    background-blend-mode: multiply;
+
+}
+
+.div4:hover{
+    background-color: #285348CC;
+    background-blend-mode: multiply;
+}
+
+.div1,
+.div4 {
+    width: 60%;
+    height: 40vh;
+    flex: 3;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2,
+.div3 {
+    width: 40%;
+    height: 40vh;
+    flex: 2;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1,
+.d2 {
+    margin: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Acari Sans, 'Source Sans Pro';
+    flex-shrink: 0;
+}
+
+.div1 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/mangoes.png');
+}
+
+.div2 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/our_farm.png');
+}
+
+.div3 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/shop.png');
+}
+
+.div4 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/cricket.png');
+}
+
+.footer{
+    display: flex;
+    gap: 3rem;
+    margin-top: 18rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.SB{
+    height: 80vh;;
+}
+
+.dialogue{
+    width: 70%;
+    margin-bottom: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2575;
+    color: #000000;
+    font-family: Acari Sans, 'Source Sans Pro';
+    flex-shrink: 0;
+}

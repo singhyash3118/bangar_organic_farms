@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100vw;
+}
+
+.green_bg {
+    height: 100vh;
+    background-color: #285348;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white solid;
+    border-width: 0 0 0.0625rem 0;
+    margin-left: 5.6rem;
+    margin-right: 6.5rem;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.logos {
+    margin-top: 3rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.shopping_cart,
+.favorite,
+.search {
+    width: 24px;
+    height: 24px;
+}
+
+.txt {
+    width: 85%;
+    color: #FFF;
+    font-size: 3.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-family: NanumMyeongjo, 'Source Sans Pro';
+    font-weight: 100;
+    line-height: normal;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6.5rem;
+}
+
+.lowertxt {
+    align-self: end;
+}
+
+.slider {
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.lane {
+    color: #000;
+    text-align: center;
+    font-family: NanumMyeongjo, 'Source Sans Pro';
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 25rem;
+    margin-bottom: 8rem;
+}
+
+.three_lanes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    gap: 4.5rem;
+}
+
+.lane1,
+.lane2,
+.lane3 {
+    width: 14.8125rem;
+    height: 24.8125rem;
+    cursor: pointer;
+    background: #D9A874;
+    border-radius: 3.75rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.green {
+    width: 14.8125rem;
+    height: 4.9375rem;
+    flex-shrink: 0;
+    border-radius: 3.75rem 3.75rem 0rem 0rem;
+    background: #4B844A;
+    order: -1;
+    display: flex;
+    justify-content: center;
+}
+
+.green_inv {
+    width: 14.8125rem;
+    height: 4.9375rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 3.75rem 3.75rem;
+    background: #4B844A;
+    display: flex;
+    justify-content: center;
+}
+
+.vr1,
+.vr2 {
+    width: 0.1875rem;
+    height: 4.9375rem;
+    background: #FFF;
+}
+
+.hr1 {
+    width: 7.125rem;
+    height: 0.1875rem;
+    background: #FFF;
+    margin-top: 2.4687rem;
+}
+
+.poly {
+    width: 8.825rem;
+    margin-left: 18rem;
+}
+
+.table {
+    border-radius: 1.875rem;
+    border: 1px solid #4B844A;
+    background: #DFF2EE;
+    margin: 4rem;
+}
+
+.table_heading {
+    width: 90vw;
+    height: 5.1875rem;
+    border-radius: 1.875rem 1.875rem 0.625rem 0.625rem;
+    border: 1px solid #000;
+    background: #4B844A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding: 2rem 1.5rem;
+}
+
+.timings {
+    min-height: 70px;
+    width: 15%;
+    padding: 0rem 1rem;
+    border-radius: 1.25rem;
+    border: 1px solid #000;
+    background: #DFF2EE;
+    color: #000;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proceed {
+    width: 12%;
+    height: 10vh;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background: #4B844A;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cat {
+    margin-top: 10rem;
+    color: #231F20;
+    text-align: center;
+    font-family: NanumMyeongjo, 'Source Sans Pro';
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.flex-container {
+    margin: 9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1,
+.div4 {
+    width: 60%;
+    height: 40vh;
+    flex: 3;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2,
+.div3 {
+    width: 40%;
+    height: 40vh;
+    flex: 2;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1,
+.d2 {
+    margin: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Acari Sans, 'Source Sans Pro';
+    flex-shrink: 0;
+}
+
+.div1 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/mangoes.png');
+}
+
+.div2 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/our_farm.png');
+}
+
+.div3 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/shop.png');
+}
+
+.div4 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/cricket.png');
+}
+
+.footer_green{
+    /* width: 100vw; */
+    /* height: 110vh; */
+    /* background: #285348; */
+}

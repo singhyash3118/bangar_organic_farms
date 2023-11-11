@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100vw;
+}
+
+.green_bg {
+    height: 15.5vh;
+    background: #285348;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white solid;
+    border-width: 0 0 0.0625rem 0;
+    margin-left: 5.6rem;
+    margin-right: 6.5rem;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.logos {
+    margin-top: 3rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.shopping_cart,
+.favorite,
+.search {
+    width: 24px;
+    height: 24px;
+}
+
+.dirty_green {
+    width: 100%;
+    height: 100vh;
+    background: #3B6258;
+    backdrop-filter: blur(2px);
+    position: relative;
+}
+
+.payment_details {
+    width: 80%;
+    height: 110vh;
+    position: absolute;
+    bottom: -20rem;
+    border-radius: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+
+}
+
+.bookings {
+    width: 50%;
+    height: 100vh;
+    border: #3B6258 solid;
+    border-width: 0 0.0625rem 0 0;
+}
+
+.bookings_heading {
+    width: 80%;
+    height: 7%;
+    background: #335248;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booking_info {
+    margin-left: 4rem;
+    margin-right: 8.5rem;
+    color: #000;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h1 {
+    color: #000;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 10rem;
+
+}
+
+.l1_book {
+    margin-top: 4rem;
+}
+
+.l1_head {
+    font-size: 2rem;
+}
+
+.to10 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.l2_book {
+    margin-top: 2rem;
+}
+
+.total {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay_now {
+    width: 50%;
+    height: 100vh;
+
+    color: #000;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+.pay_options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bank_trn {
+    width: 35%;
+    height: 7vh;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upi {
+    width: 25%;
+    height: 7vh;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cd {
+    width: 25%;
+    height: 7vh;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #DFF2EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cardholder {
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.cardno {
+    margin-top: 2rem;
+    margin-left: 15%;
+}
+
+.entree {
+    width: 80%;
+    height: 7vh;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.twobox {
+    display: flex;
+    gap: 2rem;
+    margin-left: 15%;
+    margin-top: 2rem;
+}
+
+.entree1 {
+    width: 20vh;
+    height: 7vh;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.pay {
+    width: 80%;
+    height: 7%;
+    background: #4B844A;
+    border-radius: 0.625rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Acari Sans, 'Source Sans Pro';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    height: 100vh;
+
+    background: #DFF2EE;
+}

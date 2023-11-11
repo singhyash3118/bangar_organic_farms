@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100vw;
+}
+
+.green_bg {
+    height: 100vh;
+    background: #285348;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white solid;
+    border-width: 0 0 0.0625rem 0;
+    margin-left: 5.6rem;
+    margin-right: 6.5rem;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.logos {
+    margin-top: 3rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.shopping_cart,
+.favorite,
+.search {
+    width: 24px;
+    height: 24px;
+}
